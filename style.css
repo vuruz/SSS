@@ -1,0 +1,98 @@
+@import url(//db.onlinewebfonts.com/c/561f38b1f4570de0fb8a39d691ab058c?family=Tungsten+Bold);
+@import url(//db.onlinewebfonts.com/c/b621d1ffb46493164fd62fb7a83ab0ff?family=MarkW05-Medium);
+
+* {
+    
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Tungsten Bold";
+
+    text-decoration: none;
+}
+
+
+
+body{
+    background-color: greenyellow;
+}
+
+
+.navbar{
+    text-align: center;
+    font-size: 2.5rem;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    gap: 25px;
+    transition: all 500ms;
+    
+    
+}
+
+.logo img{
+
+
+
+    height: 24px;
+    width: 100%;
+    display: flex;
+    
+    
+
+}
+
+header{
+    padding: 15px;
+    background-color: #7140D8;
+    position: sticky;
+    top: 0;
+    z-index: 999;
+
+    display: grid;
+    grid-template-columns: auto auto;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.navbar p{
+
+    color: white;
+    display: flex;
+    text-align: left;
+}
+
+
+.navbar a{
+    color: greenyellow;
+}
+
+.banner{
+    padding: 2rem;
+  
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.something{
+    padding: 2rem;
+    text-align: center;
+}
+
+.imagetext{
+    position: relative;
+    text-align: center;
+}
+.navbar a{
+    transition: all 500ms;
+}
+
+.navbar a:hover{
+    color: cornsilk;
+}
+
